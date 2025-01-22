@@ -4,4 +4,5 @@ pandas
 xgboost
 scikit-learn
 pickle4
+openpyxl
 
