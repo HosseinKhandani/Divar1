@@ -305,10 +305,10 @@ with st.form("car_form"):
 # ratio_excel_path = r"C:\Users\Abbasi\osint\ratio-type.xlsx"
 
 
-model_path= r"C:\Users\Abbasi\osint\model\model_1102\model_on_balanced_data-1102.pkl"
-scaler_path_X =r"C:\Users\Abbasi\osint\model\model_1102\scaler_X_for_balanced_data-1102.pkl"
-scaler_path_y =r"C:\Users\Abbasi\osint\model\model_1102\scaler_y_for_balanced_data-1102.pkl"
-ratio_excel_path = r"C:\Users\Abbasi\osint\ratio-type.xlsx"
+model_path= r"model_on_balanced_data-1102.pkl"
+scaler_path_X =r"scaler_X_for_balanced_data-1102.pkl"
+scaler_path_y =r"scaler_y_for_balanced_data-1102.pkl"
+ratio_excel_path = r"ratio-type.xlsx"
 
 
 app = MLAPP(model_path, scaler_path_X,scaler_path_y, ratio_excel_path)
